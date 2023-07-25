@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CodingExercise {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter a positive integer greater than 0");
+        System.out.println("Please enter a positive integer");
         int n = scanner.nextInt();
         int i;
         for (i = 1; i <= n; i++) {
